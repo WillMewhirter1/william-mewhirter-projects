@@ -1,1 +1,19 @@
+# The Effect of the TseTse Fly on African Development
 
+This project replicates the core analysis from Alsan (2015), which explores how the historical presence of the TseTse fly — a vector for African trypanosomiasis — influenced precolonial societal development and continues to impact long-run economic outcomes across Africa.
+
+##  Objective
+To reproduce the main regression results from the original paper and examine how disease ecology shaped institutional development and economic performance across African regions.
+
+##  Methods & Tools
+- **Data**: Publicly available replication dataset from Alsan (2015)
+- **Tools**: Python (pandas, statsmodels, matplotlib)
+- **Analysis**: OLS regression models, scatterplots, robustness checks
+
+##  Key Findings
+- Reproduced the negative relationship between TseTse fly suitability and historical political centralization
+- Confirmed the paper’s conclusion that ecological constraints contributed to institutional underdevelopment
+- Gained experience in historical econometrics and academic replication practices
+
+##  Files
+- `TseTseFly_DevelopmentImpact.ipynb`: Full notebook with data cleaning, analysis, and visualizations
