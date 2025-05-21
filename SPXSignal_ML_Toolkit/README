@@ -1,1 +1,41 @@
+# SPXSignal: Machine Learning Forecasting Toolkit
+
+**SPXSignal** applies a range of machine learning and econometric models to forecast the S&P 500 index’s price, log returns, and directional movement. It integrates causality analysis, volatility modeling, and model comparison to understand short-term predictability in financial markets.
+
+##  Objective
+
+To evaluate and compare how various models—including Neural Networks, LSTM, Gaussian Processes, and ARMA+GARCH—perform in forecasting different aspects of the S&P 500. The project also investigates volatility spillovers and return causality across global equity markets using Granger networks.
+
+##  Methods & Tools
+
+###  Part 1: Volatility & Causality Analysis
+- EWMA volatility estimation vs. 10-week rolling standard deviation
+- Granger causality networks for weekly/monthly returns and volatilities
+- Feature selection using Granger tests, OLS, and Random Forests
+- Markets analyzed: US (S&P500), UK (FTSE), Germany (GDAXI), Japan (N225), India (BSESN), Mexico (MXX), Indonesia (JKSE)
+
+###  Part 2: Forecasting Models
+- Neural Networks (multi-layer, tested across activations/layers)
+- Long Short-Term Memory (LSTM)
+- Gaussian Process Regression (stationary vs. non-stationary kernels)
+- ARMA + GARCH (benchmark econometric models)
+
+##  Evaluation Metrics
+- **Price & Return**: Normalized RMSE (NRMSE)
+- **Direction**: Accuracy
+- Sensitivity analysis: 1% shocks to explanatory variables
+
+##  Key Findings
+- Neural Networks had the best performance in forecasting price and returns
+- LSTM outperformed others on direction prediction, though all models favored the positive class
+- Gaussian Processes were stable but underfit some targets
+- Volatility and return causality networks confirmed the central role of U.S. markets and the VIX as global risk drivers
+
+##  Files
+- `CodePart1.ipynb`: Volatility estimation, Granger analysis, and feature selection
+- `CodePart2.ipynb`: Forecasting models, accuracy evaluation, and sensitivity analysis
+- `Writeup_ML.pdf`: Final project report with methodology, graphs, and comparative results
+
+##  Notes
+This project was completed for the Machine Learning for Finance course at the Barcelona School of Economics (Spring 2025).
 
