@@ -1,3 +1,4 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/WillMewhirter1/william-mewhirter-projects)
 # william-mewhirter-projects
 
 A curated portfolio of graduate-level work in economic forecasting, machine learning, and policy modeling using real-world data.
