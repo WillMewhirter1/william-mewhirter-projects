@@ -1,1 +1,23 @@
+# S&P 500 Time Series Forecasting
+
+This project builds and evaluates several models to forecast S&P 500 stock returns using historical data. It explores both traditional time series methods and machine learning approaches to compare predictive performance.
+
+##  Objective
+To forecast future movements in the S&P 500 index using past return data, and evaluate how machine learning models compare with classical econometric approaches.
+
+##  Methods & Tools
+- **Data**: Historical S&P 500 closing prices and returns (daily)
+- **Tools**: Python (pandas, numpy, matplotlib, scikit-learn, statsmodels)
+- **Models**:
+  - ARIMA
+  - Linear regression (with lagged features)
+  - Random Forest
+  - Gradient Boosting Machines
+
+##  Evaluation
+- Train-test split with walk-forward validation
+- Forecast accuracy measured using MSE and directional accuracy
+
+##  Files
+- `S&P500Forecasting.ipynb`: Full notebook with data preprocessing, model training, and evaluation
 
